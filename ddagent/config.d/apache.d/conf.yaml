@@ -1,0 +1,20 @@
+init_config:
+
+instances:
+  ## @param apache_status_url - string - required
+  ## Status url of your Apache server.
+  #
+  - apache_status_url: http://localhost/server-status?auto
+
+logs:
+  - type: file
+    path: /var/log/httpd/access_log
+    source: apache
+    service: beanstalk-demo
+    sourcecategory: http_web_access
+  
+  - type: file
+    path: /var/log/httpd/error_log
+    source: apache
+    service: beanstalk-demo
+    sourcecategory: http_web_error
