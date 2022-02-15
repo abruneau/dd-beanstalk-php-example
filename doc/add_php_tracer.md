@@ -1,4 +1,4 @@
-# Adding .Net tracer
+# Adding PHP tracer
 
 When the application isn’t containerized and the Datadog Agent is configured with `99datadog.config`, tracing is enabled without any additional configuration.
 
