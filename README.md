@@ -125,7 +125,7 @@ eb terminate
 ## Documentation
 
 - [Configuring the agent](./doc/configure_agent.md)
-- [Add .Net Tracer](./doc/add_dotnet_tracer.md)
+- [Add PHP Tracer](./doc/add_php_tracer.md)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
